@@ -4,7 +4,7 @@
 
 ### Cheatsheet
 
-Make a cheatsheet (./cheatsheet.md) of programming concepts from C# to Python
+Make a [cheatsheet](./cheatsheet.md) of programming concepts from C# to Python
 
 ### Python introductory examples
 
