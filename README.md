@@ -54,6 +54,24 @@ Make a Python script for at least 3 of the following exercises:
     Length: 8.0
     ```
 
-1. A definite integral is defined by the area under the function. The Riemann sum is a approximation of this definite integral, by summing the areas of the rectangles which are defined by a chosen delta x. Delta x is the width of the approximate rectangle and the function value f(x) is the length of that rectangle. Write a function which calculates the Riemann sum for a given function for a given interval.
+1. ✅ A definite integral is defined by the area under the function. The Riemann sum is a approximation of this definite integral, by summing the areas of the rectangles which are defined by a chosen delta x. Delta x is the width of the approximate rectangle and the function value f(x) is the length of that rectangle. Write a function which calculates the Riemann sum for a given function for a given interval.
 
     ![Riemann sum example](./assets/riemann.png)
+
+    [Python code](./riemannsum.py) with following output:
+
+    My code includes 3 functions to calculate the left, right and middle Riemann sum for a given function over a given interval. You can see that the precision gets higher if n (number of rectangles) increases.
+
+    ```text
+    functie: f(x) = x² + 1    Interval: [0, 2]      n = 5
+    Oppervlakte R:  5.5200000000000005
+    Oppervlakte L:  3.920000000000001
+    Oppervlakte M:  4.640000000000001
+    ```
+
+    ```text
+    functie: f(x) = x² + 1    Interval: [0, 2]      n = 100000
+    Oppervlakte R:  4.666706666794982
+    Oppervlakte L:  4.666626666794983
+    Oppervlakte M:  4.666666666594938
+    ```
