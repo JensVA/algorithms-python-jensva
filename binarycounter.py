@@ -19,14 +19,16 @@ class BinaryCounter:
 
   def increment(self):
     if(self.__value < 15): self.__value = self.__value + 1
+    else: self.__value = 0
     self.__initLeds(self.__value)
 
   def decrement(self):
     if(self.__value > 0): self.__value = self.__value - 1
+    else: self.__value = 15
     self.__initLeds(self.__value)
 
   def setValue(self, value):
-    if(self.__value >= 0 and self.__value <= 15): self.__value = value
+    if(value >= 0 and value <= 15): self.__value = value
     self.__initLeds(self.__value)
 
   def get_valueBin(self):
