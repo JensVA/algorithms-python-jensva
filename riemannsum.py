@@ -1,5 +1,5 @@
 def RightRiemannSum(a, b, aantal):
-  deltaX = (b-a)/aantal       #breedte van een rechthoek
+  deltaX = (b-a)/aantal       # breedte van een rechthoek
   x = a                       # x = huidige x-waarde rechthoek
   opp_totaal = 0.0
   for n in range(0, aantal):  # aantal keer herhalen
@@ -10,7 +10,7 @@ def RightRiemannSum(a, b, aantal):
   return opp_totaal
 
 def LeftRiemannSum(a, b, aantal):
-  deltaX = (b-a)/aantal       #breedte van een rechthoek
+  deltaX = (b-a)/aantal       # breedte van een rechthoek
   x = a                       # x = huidige x-waarde rechthoek
   opp_totaal = 0.0
   for n in range(0, aantal):  # aantal keer herhalen
@@ -21,7 +21,7 @@ def LeftRiemannSum(a, b, aantal):
   return opp_totaal
 
 def MiddleRiemannSum(a, b, aantal):
-  deltaX = (b-a)/aantal       #breedte van een rechthoek
+  deltaX = (b-a)/aantal       # breedte van een rechthoek
   x = a                       # x = huidige x-waarde rechthoek
   opp_totaal = 0.0
   for n in range(0, aantal):  # aantal keer herhalen
@@ -32,7 +32,7 @@ def MiddleRiemannSum(a, b, aantal):
   return opp_totaal
 
 
-#functie: f(x) = x² + 1
+# functie: f(x) = x² + 1
 a = 0
 b = 2
 n = 5
